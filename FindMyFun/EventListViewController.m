@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "EventListViewController.m"
+#import "EventListViewController.h"
 
 @interface EventListViewController ()
 
@@ -19,6 +19,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
+
+- (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    return nil;
+}
+
+- (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 0;
+}
+
+
 
 
 @end

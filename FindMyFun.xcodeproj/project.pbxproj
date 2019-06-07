@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1951D0F07B6F2F0E6C59E4DD /* libPods-FindMyFun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC07F5C67280C4E82215B124 /* libPods-FindMyFun.a */; };
+		B76350EF748CC9BE58DA72CD /* libPods-FindMyFun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 032470BBF49121B82B97FD66 /* libPods-FindMyFun.a */; };
 		DDDDE9FD22A9BB8800F2BF8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */; };
 		DDDDEA0022A9BB8800F2BF8F /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDE9FF22A9BB8800F2BF8F /* LogInViewController.m */; };
 		DDDDEA0322A9BB8800F2BF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEA0122A9BB8800F2BF8F /* Main.storyboard */; };
@@ -21,9 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C00DBABDBA662CEF84E3785 /* Pods-FindMyFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.debug.xcconfig"; sourceTree = "<group>"; };
-		BC7DA69992211519D53DB1FF /* Pods-FindMyFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.release.xcconfig"; sourceTree = "<group>"; };
-		DC07F5C67280C4E82215B124 /* libPods-FindMyFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindMyFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032470BBF49121B82B97FD66 /* libPods-FindMyFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindMyFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF261720AEC17CFF8FA0D1C /* Pods-FindMyFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.release.xcconfig"; sourceTree = "<group>"; };
 		DDDDE9F822A9BB8800F2BF8F /* FindMyFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDDE9FB22A9BB8800F2BF8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		DDDDEA2522AA1BE500F2BF8F /* StartSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartSharingViewController.m; path = FindMyFun/StartSharingViewController.m; sourceTree = "<group>"; };
 		DDDDEA2A22AA1C9100F2BF8F /* EventListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EventListViewController.m; path = FindMyFun/EventListViewController.m; sourceTree = "<group>"; };
 		DDDDEA2C22AA1CA200F2BF8F /* EventListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
+		E7D06863D7BB2203E757E843 /* Pods-FindMyFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,20 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1951D0F07B6F2F0E6C59E4DD /* libPods-FindMyFun.a in Frameworks */,
+				B76350EF748CC9BE58DA72CD /* libPods-FindMyFun.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		93ABF85EF2782D5B753A675C /* Pods */ = {
+		302E45410C5116354E728609 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0C00DBABDBA662CEF84E3785 /* Pods-FindMyFun.debug.xcconfig */,
-				BC7DA69992211519D53DB1FF /* Pods-FindMyFun.release.xcconfig */,
+				E7D06863D7BB2203E757E843 /* Pods-FindMyFun.debug.xcconfig */,
+				0BF261720AEC17CFF8FA0D1C /* Pods-FindMyFun.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C93CBB65E5FF9D74D25D52C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032470BBF49121B82B97FD66 /* libPods-FindMyFun.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DDDDE9EF22A9BB8800F2BF8F = {
@@ -71,8 +79,8 @@
 				DDDDE9FA22A9BB8800F2BF8F /* FindMyFun */,
 				DDDDE9F922A9BB8800F2BF8F /* Products */,
 				DDDDEA2022AA1B4C00F2BF8F /* View Controllers */,
-				93ABF85EF2782D5B753A675C /* Pods */,
-				F18F1CB69F1CB93981A92464 /* Frameworks */,
+				302E45410C5116354E728609 /* Pods */,
+				C93CBB65E5FF9D74D25D52C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,14 +123,6 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
-		F18F1CB69F1CB93981A92464 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DC07F5C67280C4E82215B124 /* libPods-FindMyFun.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,7 +130,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDDDEA0E22A9BB8A00F2BF8F /* Build configuration list for PBXNativeTarget "FindMyFun" */;
 			buildPhases = (
-				9D067163F1BFE5CCEAE92083 /* [CP] Check Pods Manifest.lock */,
+				49E39CC60554C183419422EA /* [CP] Check Pods Manifest.lock */,
 				DDDDE9F422A9BB8800F2BF8F /* Sources */,
 				DDDDE9F522A9BB8800F2BF8F /* Frameworks */,
 				DDDDE9F622A9BB8800F2BF8F /* Resources */,
@@ -155,7 +155,7 @@
 				TargetAttributes = {
 					DDDDE9F722A9BB8800F2BF8F = {
 						CreatedOnToolsVersion = 10.2.1;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = "";
 					};
 				};
 			};
@@ -191,7 +191,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9D067163F1BFE5CCEAE92083 /* [CP] Check Pods Manifest.lock */ = {
+		49E39CC60554C183419422EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,7 +362,7 @@
 		};
 		DDDDEA0F22A9BB8A00F2BF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C00DBABDBA662CEF84E3785 /* Pods-FindMyFun.debug.xcconfig */;
+			baseConfigurationReference = E7D06863D7BB2203E757E843 /* Pods-FindMyFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -377,14 +377,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FindMyFun/FindMyFun-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		DDDDEA1022A9BB8A00F2BF8F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC7DA69992211519D53DB1FF /* Pods-FindMyFun.release.xcconfig */;
+			baseConfigurationReference = 0BF261720AEC17CFF8FA0D1C /* Pods-FindMyFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -398,7 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.FindMyFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FindMyFun/FindMyFun-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

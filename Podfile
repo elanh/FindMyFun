@@ -6,6 +6,5 @@ target 'FindMyFun' do
   # use_frameworks!
 
   # Pods for FindMyFun
-pod 'SwiftLocation', '~> 4.0'
 
 end

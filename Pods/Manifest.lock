@@ -1,16 +1,3 @@
-PODS:
-  - SwiftLocation (4.0.2)
-
-DEPENDENCIES:
-  - SwiftLocation (~> 4.0)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - SwiftLocation
-
-SPEC CHECKSUMS:
-  SwiftLocation: 4f030832331a21abaa4e0c5189d0f80ab8d3e377
-
-PODFILE CHECKSUM: 32766ed5e0125ba49d27fad229b250fa2f836e18
+PODFILE CHECKSUM: 7de374e8f6b7882ec9b9c93d7d52255e729c1879
 
 COCOAPODS: 1.5.3
