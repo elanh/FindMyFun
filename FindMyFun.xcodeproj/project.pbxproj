@@ -17,6 +17,7 @@
 		DDDDEA1922A9C6CC00F2BF8F /* CreateEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA1822A9C6CC00F2BF8F /* CreateEventViewController.m */; };
 		DDDDEA2822AA1BE500F2BF8F /* StartSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA2522AA1BE500F2BF8F /* StartSharingViewController.m */; };
 		DDDDEA2B22AA1C9100F2BF8F /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA2A22AA1C9100F2BF8F /* EventListViewController.m */; };
+		DDDDEA3122AB269700F2BF8F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA3022AB269700F2BF8F /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		DDDDEA2522AA1BE500F2BF8F /* StartSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartSharingViewController.m; path = FindMyFun/StartSharingViewController.m; sourceTree = "<group>"; };
 		DDDDEA2A22AA1C9100F2BF8F /* EventListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EventListViewController.m; path = FindMyFun/EventListViewController.m; sourceTree = "<group>"; };
 		DDDDEA2C22AA1CA200F2BF8F /* EventListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
+		DDDDEA2F22AB268900F2BF8F /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		DDDDEA3022AB269700F2BF8F /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		E7D06863D7BB2203E757E843 /* Pods-FindMyFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +79,7 @@
 			children = (
 				DDDDE9FA22A9BB8800F2BF8F /* FindMyFun */,
 				DDDDE9F922A9BB8800F2BF8F /* Products */,
+				DDDDEA2E22AB267300F2BF8F /* Classes */,
 				DDDDEA2022AA1B4C00F2BF8F /* View Controllers */,
 				302E45410C5116354E728609 /* Pods */,
 				C93CBB65E5FF9D74D25D52C1 /* Frameworks */,
@@ -118,6 +122,15 @@
 				DDDDEA2522AA1BE500F2BF8F /* StartSharingViewController.m */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DDDDEA2E22AB267300F2BF8F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDDDEA2F22AB268900F2BF8F /* User.h */,
+				DDDDEA3022AB269700F2BF8F /* User.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDDEA2822AA1BE500F2BF8F /* StartSharingViewController.m in Sources */,
+				DDDDEA3122AB269700F2BF8F /* User.m in Sources */,
 				DDDDEA1922A9C6CC00F2BF8F /* CreateEventViewController.m in Sources */,
 				DDDDEA0022A9BB8800F2BF8F /* LogInViewController.m in Sources */,
 				DDDDEA2B22AA1C9100F2BF8F /* EventListViewController.m in Sources */,
