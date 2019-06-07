@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 7de374e8f6b7882ec9b9c93d7d52255e729c1879
+PODS:
+  - INTULocationManager (4.3.2)
+
+DEPENDENCIES:
+  - INTULocationManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - INTULocationManager
+
+SPEC CHECKSUMS:
+  INTULocationManager: e5dc524611b0cd582f473bc56cc8c389adb2f338
+
+PODFILE CHECKSUM: a13dc39e831ea66dca5d7ef344cf053a03957772
 
 COCOAPODS: 1.5.3

@@ -6,5 +6,5 @@ target 'FindMyFun' do
   # use_frameworks!
 
   # Pods for FindMyFun
-
+pod 'INTULocationManager'
 end

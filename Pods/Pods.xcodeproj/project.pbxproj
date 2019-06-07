@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CFD71BC46DA11DD2AC6F75EC72ADE83 /* Pods-FindMyFun-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C384B94E6C75DEE1B00FD20CBD6A048 /* Pods-FindMyFun-dummy.m */; };
+		5913E220BB7CE4381D9DF4239CD4EAB1 /* INTULocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A89A90A06E123A9BB79EAC77E7BB0 /* INTULocationManager-dummy.m */; };
+		60D9B104D3BA8B88601E0DB2D155EB6A /* INTURequestIDGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C312A9D6A97349A5B38686FE07D4B1 /* INTURequestIDGenerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B41DCDABE4F1616D58F417CE2C7FE85 /* INTULocationRequestDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5E00BDEBCEB3EEEFC970D408EEDFA3 /* INTULocationRequestDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DE12EAC64621E8CCCD7C2531A73E785 /* INTULocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CFE031E08D05F60E625525DE9AB2C14 /* INTULocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87D7B5282E862F5227B716C226E2C17C /* INTULocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCEF8DC8874E5E68948463332987C52 /* INTULocationRequest.m */; };
+		897BD716B0CB87004DD98D261211B51B /* INTUHeadingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D5EF3C5FE54D207A40BABE0BB544D6 /* INTUHeadingRequest.m */; };
+		94F85BABAEFB4AF0257B7F872571174A /* INTURequestIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3DCDC581AF5428F2CEE6899345E2F3 /* INTURequestIDGenerator.m */; };
+		9E31D6CFBE421DDA7BC2DFB6B426CB55 /* Pods-FindMyFun-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C384B94E6C75DEE1B00FD20CBD6A048 /* Pods-FindMyFun-dummy.m */; };
+		B20BA791CA83D5F0F49762356D373F3E /* INTULocationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5104CC4331B84BC50F6B6D0131EC05DD /* INTULocationRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B74C21D653991A05589C854DE9CDEBC8 /* INTUHeadingRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9EEF07621DF35EBFE082D005D749B3 /* INTUHeadingRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9432F3EC9212C55EBC17988A2EFD969 /* INTULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 263CAE403C55B7B85AAAF1C34C53B93A /* INTULocationManager.m */; };
+		E3B69E45BBEFEF65353E4B01B7802D92 /* INTULocationManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D444EB41E4E28837C9F34B6B386F4DF6 /* INTULocationManager+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F757A40B0548E58790BA1017300A54B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37F6E5EC74FEC50F028A1111D34B65B;
+			remoteInfo = INTULocationManager;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0DCEF8DC8874E5E68948463332987C52 /* INTULocationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTULocationRequest.m; path = LocationManager/INTULocationManager/INTULocationRequest.m; sourceTree = "<group>"; };
+		1C3DCDC581AF5428F2CEE6899345E2F3 /* INTURequestIDGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTURequestIDGenerator.m; path = LocationManager/INTULocationManager/INTURequestIDGenerator.m; sourceTree = "<group>"; };
+		22C312A9D6A97349A5B38686FE07D4B1 /* INTURequestIDGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTURequestIDGenerator.h; path = LocationManager/INTULocationManager/INTURequestIDGenerator.h; sourceTree = "<group>"; };
+		22D5EF3C5FE54D207A40BABE0BB544D6 /* INTUHeadingRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTUHeadingRequest.m; path = LocationManager/INTULocationManager/INTUHeadingRequest.m; sourceTree = "<group>"; };
+		263CAE403C55B7B85AAAF1C34C53B93A /* INTULocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INTULocationManager.m; path = LocationManager/INTULocationManager/INTULocationManager.m; sourceTree = "<group>"; };
 		330B020D8BE367D608E9818184E666D5 /* Pods-FindMyFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindMyFun.debug.xcconfig"; sourceTree = "<group>"; };
 		3EF9AC16B0EC9C916F4C7FE7FC7F131E /* Pods-FindMyFun-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindMyFun-resources.sh"; sourceTree = "<group>"; };
+		5104CC4331B84BC50F6B6D0131EC05DD /* INTULocationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTULocationRequest.h; path = LocationManager/INTULocationManager/INTULocationRequest.h; sourceTree = "<group>"; };
 		712ADD8784F2D9F31191735DA44162ED /* Pods-FindMyFun-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindMyFun-acknowledgements.plist"; sourceTree = "<group>"; };
 		7C384B94E6C75DEE1B00FD20CBD6A048 /* Pods-FindMyFun-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindMyFun-dummy.m"; sourceTree = "<group>"; };
+		7CABE815A2723D56E267C1397506F02C /* INTULocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INTULocationManager.xcconfig; sourceTree = "<group>"; };
+		7CFE031E08D05F60E625525DE9AB2C14 /* INTULocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTULocationManager.h; path = LocationManager/INTULocationManager/INTULocationManager.h; sourceTree = "<group>"; };
+		825A89A90A06E123A9BB79EAC77E7BB0 /* INTULocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INTULocationManager-dummy.m"; sourceTree = "<group>"; };
 		8B7101A6735E8794D4EA2DB60E95CA06 /* Pods-FindMyFun-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindMyFun-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F9EEF07621DF35EBFE082D005D749B3 /* INTUHeadingRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTUHeadingRequest.h; path = LocationManager/INTULocationManager/INTUHeadingRequest.h; sourceTree = "<group>"; };
+		B2550B58E9BEBF13ACC4EBEF4F3AD74F /* INTULocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INTULocationManager-prefix.pch"; sourceTree = "<group>"; };
 		BBD729CA284D159890FA8481846A4D79 /* Pods-FindMyFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindMyFun.release.xcconfig"; sourceTree = "<group>"; };
-		D2CB88B87BA8838928FEEC3C67758C7F /* libPods-FindMyFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FindMyFun.a"; path = "libPods-FindMyFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC9EDDA86421428F7E57538B803E4E8 /* libPods-FindMyFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FindMyFun.a"; path = "libPods-FindMyFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D444EB41E4E28837C9F34B6B386F4DF6 /* INTULocationManager+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "INTULocationManager+Internal.h"; path = "LocationManager/INTULocationManager/INTULocationManager+Internal.h"; sourceTree = "<group>"; };
+		E4F823FEE7879C3F8D2E8FD85202C0C6 /* libINTULocationManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libINTULocationManager.a; path = libINTULocationManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5E00BDEBCEB3EEEFC970D408EEDFA3 /* INTULocationRequestDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INTULocationRequestDefines.h; path = LocationManager/INTULocationManager/INTULocationRequestDefines.h; sourceTree = "<group>"; };
 		FD000FD82EFE02427D33B3B180EF6285 /* Pods-FindMyFun-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindMyFun-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A49DFD0602D4061131BFB87F9BEAC7E7 /* Frameworks */ = {
+		14114C32B18D9DF0479540C0169CBC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F88728CD5561C8B06184D6711E6C5F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,14 +97,43 @@
 			path = "Target Support Files/Pods-FindMyFun";
 			sourceTree = "<group>";
 		};
+		68070EF112C2BF8D6268F05853F1FB5D /* INTULocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				9F9EEF07621DF35EBFE082D005D749B3 /* INTUHeadingRequest.h */,
+				22D5EF3C5FE54D207A40BABE0BB544D6 /* INTUHeadingRequest.m */,
+				7CFE031E08D05F60E625525DE9AB2C14 /* INTULocationManager.h */,
+				263CAE403C55B7B85AAAF1C34C53B93A /* INTULocationManager.m */,
+				D444EB41E4E28837C9F34B6B386F4DF6 /* INTULocationManager+Internal.h */,
+				5104CC4331B84BC50F6B6D0131EC05DD /* INTULocationRequest.h */,
+				0DCEF8DC8874E5E68948463332987C52 /* INTULocationRequest.m */,
+				ED5E00BDEBCEB3EEEFC970D408EEDFA3 /* INTULocationRequestDefines.h */,
+				22C312A9D6A97349A5B38686FE07D4B1 /* INTURequestIDGenerator.h */,
+				1C3DCDC581AF5428F2CEE6899345E2F3 /* INTURequestIDGenerator.m */,
+				D18A0917EA79A62F38C8FBBE694A4AEB /* Support Files */,
+			);
+			name = INTULocationManager;
+			path = INTULocationManager;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				F83C7DB6004643873160D822A23AD6AE /* Products */,
+				DC26CFC0F00F79E87C6374D4E299DBC3 /* Pods */,
+				82264C7FAD22D5E57B7C44D85FAB8F6C /* Products */,
 				864B0599821FB00517AC46D6A6A42364 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		82264C7FAD22D5E57B7C44D85FAB8F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F823FEE7879C3F8D2E8FD85202C0C6 /* libINTULocationManager.a */,
+				CAC9EDDA86421428F7E57538B803E4E8 /* libPods-FindMyFun.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		864B0599821FB00517AC46D6A6A42364 /* Targets Support Files */ = {
@@ -73,31 +144,76 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F83C7DB6004643873160D822A23AD6AE /* Products */ = {
+		D18A0917EA79A62F38C8FBBE694A4AEB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D2CB88B87BA8838928FEEC3C67758C7F /* libPods-FindMyFun.a */,
+				7CABE815A2723D56E267C1397506F02C /* INTULocationManager.xcconfig */,
+				825A89A90A06E123A9BB79EAC77E7BB0 /* INTULocationManager-dummy.m */,
+				B2550B58E9BEBF13ACC4EBEF4F3AD74F /* INTULocationManager-prefix.pch */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/INTULocationManager";
+			sourceTree = "<group>";
+		};
+		DC26CFC0F00F79E87C6374D4E299DBC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68070EF112C2BF8D6268F05853F1FB5D /* INTULocationManager */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		18E3500BFD3348FDB6A1089C1084EACF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74C21D653991A05589C854DE9CDEBC8 /* INTUHeadingRequest.h in Headers */,
+				E3B69E45BBEFEF65353E4B01B7802D92 /* INTULocationManager+Internal.h in Headers */,
+				7DE12EAC64621E8CCCD7C2531A73E785 /* INTULocationManager.h in Headers */,
+				B20BA791CA83D5F0F49762356D373F3E /* INTULocationRequest.h in Headers */,
+				7B41DCDABE4F1616D58F417CE2C7FE85 /* INTULocationRequestDefines.h in Headers */,
+				60D9B104D3BA8B88601E0DB2D155EB6A /* INTURequestIDGenerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		9E3A98D23B242182B0AE47D835D28DCE /* Pods-FindMyFun */ = {
+		3349A5934DBFA574452B9B2B5AA97ED0 /* Pods-FindMyFun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E92F17D328DE45ACC3AB66C7E961CA5 /* Build configuration list for PBXNativeTarget "Pods-FindMyFun" */;
+			buildConfigurationList = C0FC3989EBB1744EBDF8CC76D0717905 /* Build configuration list for PBXNativeTarget "Pods-FindMyFun" */;
 			buildPhases = (
-				DF7971E3F0F59E42F35E1AB1CF59253C /* Sources */,
-				A49DFD0602D4061131BFB87F9BEAC7E7 /* Frameworks */,
+				03F0A51659E59B1AEF4CAA7D66B39738 /* Sources */,
+				14114C32B18D9DF0479540C0169CBC58 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B34762BDF2D2684ACACD53CC65A4F585 /* PBXTargetDependency */,
+			);
+			name = "Pods-FindMyFun";
+			productName = "Pods-FindMyFun";
+			productReference = CAC9EDDA86421428F7E57538B803E4E8 /* libPods-FindMyFun.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D37F6E5EC74FEC50F028A1111D34B65B /* INTULocationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B52A1B81133E2D358869AA4358E9FDCF /* Build configuration list for PBXNativeTarget "INTULocationManager" */;
+			buildPhases = (
+				3E1231152E9171B1DE33CF1B1D724642 /* Sources */,
+				2F88728CD5561C8B06184D6711E6C5F8 /* Frameworks */,
+				18E3500BFD3348FDB6A1089C1084EACF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-FindMyFun";
-			productName = "Pods-FindMyFun";
-			productReference = D2CB88B87BA8838928FEEC3C67758C7F /* libPods-FindMyFun.a */;
+			name = INTULocationManager;
+			productName = INTULocationManager;
+			productReference = E4F823FEE7879C3F8D2E8FD85202C0C6 /* libINTULocationManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -117,28 +233,50 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F83C7DB6004643873160D822A23AD6AE /* Products */;
+			productRefGroup = 82264C7FAD22D5E57B7C44D85FAB8F6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E3A98D23B242182B0AE47D835D28DCE /* Pods-FindMyFun */,
+				D37F6E5EC74FEC50F028A1111D34B65B /* INTULocationManager */,
+				3349A5934DBFA574452B9B2B5AA97ED0 /* Pods-FindMyFun */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF7971E3F0F59E42F35E1AB1CF59253C /* Sources */ = {
+		03F0A51659E59B1AEF4CAA7D66B39738 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CFD71BC46DA11DD2AC6F75EC72ADE83 /* Pods-FindMyFun-dummy.m in Sources */,
+				9E31D6CFBE421DDA7BC2DFB6B426CB55 /* Pods-FindMyFun-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1231152E9171B1DE33CF1B1D724642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897BD716B0CB87004DD98D261211B51B /* INTUHeadingRequest.m in Sources */,
+				5913E220BB7CE4381D9DF4239CD4EAB1 /* INTULocationManager-dummy.m in Sources */,
+				C9432F3EC9212C55EBC17988A2EFD969 /* INTULocationManager.m in Sources */,
+				87D7B5282E862F5227B716C226E2C17C /* INTULocationRequest.m in Sources */,
+				94F85BABAEFB4AF0257B7F872571174A /* INTURequestIDGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B34762BDF2D2684ACACD53CC65A4F585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = INTULocationManager;
+			target = D37F6E5EC74FEC50F028A1111D34B65B /* INTULocationManager */;
+			targetProxy = F757A40B0548E58790BA1017300A54B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		AF8F2AABF4E79B64710523A20C547DB8 /* Debug */ = {
+		CB6D5A7FFA9A9F6AC695CCE75CD9F0C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 330B020D8BE367D608E9818184E666D5 /* Pods-FindMyFun.debug.xcconfig */;
 			buildSettings = {
@@ -156,6 +294,78 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB825C46B90CEB1402A86FB71BFB54AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD729CA284D159890FA8481846A4D79 /* Pods-FindMyFun.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D33B23A28830BFB5901321F893281345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CABE815A2723D56E267C1397506F02C /* INTULocationManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/INTULocationManager/INTULocationManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = INTULocationManager;
+				PRODUCT_NAME = INTULocationManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E737C24B621C206D4070D2451B2E5912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CABE815A2723D56E267C1397506F02C /* INTULocationManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/INTULocationManager/INTULocationManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = INTULocationManager;
+				PRODUCT_NAME = INTULocationManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -215,29 +425,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		FD392E7E1F584C901DC8F23165F99EC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBD729CA284D159890FA8481846A4D79 /* Pods-FindMyFun.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -307,20 +494,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E92F17D328DE45ACC3AB66C7E961CA5 /* Build configuration list for PBXNativeTarget "Pods-FindMyFun" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AF8F2AABF4E79B64710523A20C547DB8 /* Debug */,
-				FD392E7E1F584C901DC8F23165F99EC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEB52B20EEB50135A85E1727D4046F94 /* Debug */,
 				FA39F93BCC98288C75B07575327D1A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B52A1B81133E2D358869AA4358E9FDCF /* Build configuration list for PBXNativeTarget "INTULocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E737C24B621C206D4070D2451B2E5912 /* Debug */,
+				D33B23A28830BFB5901321F893281345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FC3989EBB1744EBDF8CC76D0717905 /* Build configuration list for PBXNativeTarget "Pods-FindMyFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6D5A7FFA9A9F6AC695CCE75CD9F0C5 /* Debug */,
+				CB825C46B90CEB1402A86FB71BFB54AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
