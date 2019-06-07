@@ -58,7 +58,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log In"/>
                                 <connections>
-                                    <segue destination="pSZ-Q6-Dkm" kind="show" id="Bax-sJ-Laa"/>
+                                    <segue destination="pSZ-Q6-Dkm" kind="showDetail" id="Hv1-bl-vF4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -82,6 +82,10 @@
                                 <rect key="frame" x="162" y="433" width="91" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start Sharing"/>
+                                <connections>
+                                    <action selector="clickedStartSharingButton:" destination="pSZ-Q6-Dkm" eventType="touchUpInside" id="Rex-aV-fdg"/>
+                                    <segue destination="RgV-nn-3Io" kind="presentation" id="Oxf-WW-ty7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

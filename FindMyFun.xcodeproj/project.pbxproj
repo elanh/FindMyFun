@@ -14,7 +14,6 @@
 		DDDDEA0522A9BB8A00F2BF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEA0422A9BB8A00F2BF8F /* Assets.xcassets */; };
 		DDDDEA0822A9BB8A00F2BF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEA0622A9BB8A00F2BF8F /* LaunchScreen.storyboard */; };
 		DDDDEA0B22A9BB8A00F2BF8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA0A22A9BB8A00F2BF8F /* main.m */; };
-		DDDDEA1322A9BFBF00F2BF8F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA1222A9BFBF00F2BF8F /* User.swift */; };
 		DDDDEA1922A9C6CC00F2BF8F /* CreateEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA1822A9C6CC00F2BF8F /* CreateEventViewController.m */; };
 		DDDDEA2822AA1BE500F2BF8F /* StartSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA2522AA1BE500F2BF8F /* StartSharingViewController.m */; };
 		DDDDEA2B22AA1C9100F2BF8F /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA2A22AA1C9100F2BF8F /* EventListViewController.m */; };
@@ -34,7 +33,6 @@
 		DDDDEA0922A9BB8A00F2BF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDDDEA0A22A9BB8A00F2BF8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDDDEA1122A9BFBF00F2BF8F /* FindMyFun-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindMyFun-Bridging-Header.h"; sourceTree = "<group>"; };
-		DDDDEA1222A9BFBF00F2BF8F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DDDDEA1822A9C6CC00F2BF8F /* CreateEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CreateEventViewController.m; path = FindMyFun/CreateEventViewController.m; sourceTree = "<group>"; };
 		DDDDEA2122AA1BE400F2BF8F /* CreateEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateEventViewController.h; path = FindMyFun/CreateEventViewController.h; sourceTree = "<group>"; };
 		DDDDEA2422AA1BE400F2BF8F /* StartSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartSharingViewController.h; path = FindMyFun/StartSharingViewController.h; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 			children = (
 				DDDDE9FB22A9BB8800F2BF8F /* AppDelegate.h */,
 				DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */,
-				DDDDEA1222A9BFBF00F2BF8F /* User.swift */,
 				DDDDEA0122A9BB8800F2BF8F /* Main.storyboard */,
 				DDDDEA0422A9BB8A00F2BF8F /* Assets.xcassets */,
 				DDDDEA0622A9BB8A00F2BF8F /* LaunchScreen.storyboard */,
@@ -218,7 +215,6 @@
 			files = (
 				DDDDEA2822AA1BE500F2BF8F /* StartSharingViewController.m in Sources */,
 				DDDDEA1922A9C6CC00F2BF8F /* CreateEventViewController.m in Sources */,
-				DDDDEA1322A9BFBF00F2BF8F /* User.swift in Sources */,
 				DDDDEA0022A9BB8800F2BF8F /* LogInViewController.m in Sources */,
 				DDDDEA2B22AA1C9100F2BF8F /* EventListViewController.m in Sources */,
 				DDDDEA0B22A9BB8A00F2BF8F /* main.m in Sources */,
