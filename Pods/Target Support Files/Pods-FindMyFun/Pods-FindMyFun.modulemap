@@ -1,0 +1,6 @@
+module Pods_FindMyFun {
+  umbrella header "Pods-FindMyFun-umbrella.h"
+
+  export *
+  module * { export * }
+}

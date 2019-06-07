@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1951D0F07B6F2F0E6C59E4DD /* libPods-FindMyFun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC07F5C67280C4E82215B124 /* libPods-FindMyFun.a */; };
+		DDDDE9FD22A9BB8800F2BF8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */; };
+		DDDDEA0022A9BB8800F2BF8F /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDE9FF22A9BB8800F2BF8F /* LogInViewController.m */; };
+		DDDDEA0322A9BB8800F2BF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEA0122A9BB8800F2BF8F /* Main.storyboard */; };
+		DDDDEA0522A9BB8A00F2BF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEA0422A9BB8A00F2BF8F /* Assets.xcassets */; };
+		DDDDEA0822A9BB8A00F2BF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEA0622A9BB8A00F2BF8F /* LaunchScreen.storyboard */; };
+		DDDDEA0B22A9BB8A00F2BF8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA0A22A9BB8A00F2BF8F /* main.m */; };
+		DDDDEA1322A9BFBF00F2BF8F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA1222A9BFBF00F2BF8F /* User.swift */; };
+		DDDDEA1922A9C6CC00F2BF8F /* CreateEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA1822A9C6CC00F2BF8F /* CreateEventViewController.m */; };
+		DDDDEA2822AA1BE500F2BF8F /* StartSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA2522AA1BE500F2BF8F /* StartSharingViewController.m */; };
+		DDDDEA2B22AA1C9100F2BF8F /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA2A22AA1C9100F2BF8F /* EventListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C00DBABDBA662CEF84E3785 /* Pods-FindMyFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.debug.xcconfig"; sourceTree = "<group>"; };
+		BC7DA69992211519D53DB1FF /* Pods-FindMyFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.release.xcconfig"; sourceTree = "<group>"; };
+		DC07F5C67280C4E82215B124 /* libPods-FindMyFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindMyFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDDE9F822A9BB8800F2BF8F /* FindMyFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDDE9FB22A9BB8800F2BF8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDDDE9FE22A9BB8800F2BF8F /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		DDDDE9FF22A9BB8800F2BF8F /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = FindMyFun/LogInViewController.m; sourceTree = "<group>"; };
+		DDDDEA0222A9BB8800F2BF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDDDEA0422A9BB8A00F2BF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDDDEA0722A9BB8A00F2BF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDDDEA0922A9BB8A00F2BF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDDEA0A22A9BB8A00F2BF8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDDDEA1122A9BFBF00F2BF8F /* FindMyFun-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindMyFun-Bridging-Header.h"; sourceTree = "<group>"; };
+		DDDDEA1222A9BFBF00F2BF8F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DDDDEA1822A9C6CC00F2BF8F /* CreateEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CreateEventViewController.m; path = FindMyFun/CreateEventViewController.m; sourceTree = "<group>"; };
+		DDDDEA2122AA1BE400F2BF8F /* CreateEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateEventViewController.h; path = FindMyFun/CreateEventViewController.h; sourceTree = "<group>"; };
+		DDDDEA2422AA1BE400F2BF8F /* StartSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartSharingViewController.h; path = FindMyFun/StartSharingViewController.h; sourceTree = "<group>"; };
+		DDDDEA2522AA1BE500F2BF8F /* StartSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartSharingViewController.m; path = FindMyFun/StartSharingViewController.m; sourceTree = "<group>"; };
+		DDDDEA2A22AA1C9100F2BF8F /* EventListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EventListViewController.m; path = FindMyFun/EventListViewController.m; sourceTree = "<group>"; };
+		DDDDEA2C22AA1CA200F2BF8F /* EventListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDDE9F522A9BB8800F2BF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1951D0F07B6F2F0E6C59E4DD /* libPods-FindMyFun.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93ABF85EF2782D5B753A675C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C00DBABDBA662CEF84E3785 /* Pods-FindMyFun.debug.xcconfig */,
+				BC7DA69992211519D53DB1FF /* Pods-FindMyFun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDDDE9EF22A9BB8800F2BF8F = {
+			isa = PBXGroup;
+			children = (
+				DDDDE9FA22A9BB8800F2BF8F /* FindMyFun */,
+				DDDDE9F922A9BB8800F2BF8F /* Products */,
+				DDDDEA2022AA1B4C00F2BF8F /* View Controllers */,
+				93ABF85EF2782D5B753A675C /* Pods */,
+				F18F1CB69F1CB93981A92464 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDDDE9F922A9BB8800F2BF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDDDE9F822A9BB8800F2BF8F /* FindMyFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDDDE9FA22A9BB8800F2BF8F /* FindMyFun */ = {
+			isa = PBXGroup;
+			children = (
+				DDDDE9FB22A9BB8800F2BF8F /* AppDelegate.h */,
+				DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */,
+				DDDDEA1222A9BFBF00F2BF8F /* User.swift */,
+				DDDDEA0122A9BB8800F2BF8F /* Main.storyboard */,
+				DDDDEA0422A9BB8A00F2BF8F /* Assets.xcassets */,
+				DDDDEA0622A9BB8A00F2BF8F /* LaunchScreen.storyboard */,
+				DDDDEA0922A9BB8A00F2BF8F /* Info.plist */,
+				DDDDEA0A22A9BB8A00F2BF8F /* main.m */,
+				DDDDEA1122A9BFBF00F2BF8F /* FindMyFun-Bridging-Header.h */,
+			);
+			path = FindMyFun;
+			sourceTree = "<group>";
+		};
+		DDDDEA2022AA1B4C00F2BF8F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDDDE9FE22A9BB8800F2BF8F /* LogInViewController.h */,
+				DDDDE9FF22A9BB8800F2BF8F /* LogInViewController.m */,
+				DDDDEA1822A9C6CC00F2BF8F /* CreateEventViewController.m */,
+				DDDDEA2122AA1BE400F2BF8F /* CreateEventViewController.h */,
+				DDDDEA2A22AA1C9100F2BF8F /* EventListViewController.m */,
+				DDDDEA2C22AA1CA200F2BF8F /* EventListViewController.h */,
+				DDDDEA2422AA1BE400F2BF8F /* StartSharingViewController.h */,
+				DDDDEA2522AA1BE500F2BF8F /* StartSharingViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F18F1CB69F1CB93981A92464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC07F5C67280C4E82215B124 /* libPods-FindMyFun.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDDE9F722A9BB8800F2BF8F /* FindMyFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDDEA0E22A9BB8A00F2BF8F /* Build configuration list for PBXNativeTarget "FindMyFun" */;
+			buildPhases = (
+				9D067163F1BFE5CCEAE92083 /* [CP] Check Pods Manifest.lock */,
+				DDDDE9F422A9BB8800F2BF8F /* Sources */,
+				DDDDE9F522A9BB8800F2BF8F /* Frameworks */,
+				DDDDE9F622A9BB8800F2BF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyFun;
+			productName = FindMyFun;
+			productReference = DDDDE9F822A9BB8800F2BF8F /* FindMyFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDDE9F022A9BB8800F2BF8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Stanford University";
+				TargetAttributes = {
+					DDDDE9F722A9BB8800F2BF8F = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = DDDDE9F322A9BB8800F2BF8F /* Build configuration list for PBXProject "FindMyFun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDDDE9EF22A9BB8800F2BF8F;
+			productRefGroup = DDDDE9F922A9BB8800F2BF8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDDE9F722A9BB8800F2BF8F /* FindMyFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDDE9F622A9BB8800F2BF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDDEA0822A9BB8A00F2BF8F /* LaunchScreen.storyboard in Resources */,
+				DDDDEA0522A9BB8A00F2BF8F /* Assets.xcassets in Resources */,
+				DDDDEA0322A9BB8800F2BF8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D067163F1BFE5CCEAE92083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyFun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDDE9F422A9BB8800F2BF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDDEA2822AA1BE500F2BF8F /* StartSharingViewController.m in Sources */,
+				DDDDEA1922A9C6CC00F2BF8F /* CreateEventViewController.m in Sources */,
+				DDDDEA1322A9BFBF00F2BF8F /* User.swift in Sources */,
+				DDDDEA0022A9BB8800F2BF8F /* LogInViewController.m in Sources */,
+				DDDDEA2B22AA1C9100F2BF8F /* EventListViewController.m in Sources */,
+				DDDDEA0B22A9BB8A00F2BF8F /* main.m in Sources */,
+				DDDDE9FD22A9BB8800F2BF8F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDDDEA0122A9BB8800F2BF8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDDEA0222A9BB8800F2BF8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDDDEA0622A9BB8A00F2BF8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDDEA0722A9BB8A00F2BF8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDDDEA0C22A9BB8A00F2BF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDDDEA0D22A9BB8A00F2BF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDDEA0F22A9BB8A00F2BF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C00DBABDBA662CEF84E3785 /* Pods-FindMyFun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B5B8V98QF;
+				INFOPLIST_FILE = FindMyFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.FindMyFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FindMyFun/FindMyFun-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDDDEA1022A9BB8A00F2BF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7DA69992211519D53DB1FF /* Pods-FindMyFun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B5B8V98QF;
+				INFOPLIST_FILE = FindMyFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.FindMyFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FindMyFun/FindMyFun-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDDE9F322A9BB8800F2BF8F /* Build configuration list for PBXProject "FindMyFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDDEA0C22A9BB8A00F2BF8F /* Debug */,
+				DDDDEA0D22A9BB8A00F2BF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDDEA0E22A9BB8A00F2BF8F /* Build configuration list for PBXNativeTarget "FindMyFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDDEA0F22A9BB8A00F2BF8F /* Debug */,
+				DDDDEA1022A9BB8A00F2BF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDDE9F022A9BB8800F2BF8F /* Project object */;
+}
