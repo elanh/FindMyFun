@@ -8,4 +8,6 @@ target 'FindMyFun' do
   # Pods for FindMyFun
 pod 'INTULocationManager'
 pod 'Firebase/Core'
+pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
 end

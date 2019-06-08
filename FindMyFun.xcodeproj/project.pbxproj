@@ -18,6 +18,7 @@
 		DDDDEA2822AA1BE500F2BF8F /* StartSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA2522AA1BE500F2BF8F /* StartSharingViewController.m */; };
 		DDDDEA2B22AA1C9100F2BF8F /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA2A22AA1C9100F2BF8F /* EventListViewController.m */; };
 		DDDDEA3122AB269700F2BF8F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA3022AB269700F2BF8F /* User.m */; };
+		DDDDEA3322AB309D00F2BF8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEA3222AB309D00F2BF8F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +27,6 @@
 		DDDDE9F822A9BB8800F2BF8F /* FindMyFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDDE9FB22A9BB8800F2BF8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DDDDE9FE22A9BB8800F2BF8F /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		DDDDE9FF22A9BB8800F2BF8F /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = FindMyFun/LogInViewController.m; sourceTree = "<group>"; };
 		DDDDEA0222A9BB8800F2BF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDDDEA0422A9BB8A00F2BF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +42,8 @@
 		DDDDEA2C22AA1CA200F2BF8F /* EventListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
 		DDDDEA2F22AB268900F2BF8F /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		DDDDEA3022AB269700F2BF8F /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		DDDDEA3222AB309D00F2BF8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDDDEA3422AB53D900F2BF8F /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		E7D06863D7BB2203E757E843 /* Pods-FindMyFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 				DDDDEA0422A9BB8A00F2BF8F /* Assets.xcassets */,
 				DDDDEA0622A9BB8A00F2BF8F /* LaunchScreen.storyboard */,
 				DDDDEA0922A9BB8A00F2BF8F /* Info.plist */,
+				DDDDEA3222AB309D00F2BF8F /* GoogleService-Info.plist */,
 				DDDDEA0A22A9BB8A00F2BF8F /* main.m */,
 				DDDDEA1122A9BFBF00F2BF8F /* FindMyFun-Bridging-Header.h */,
 			);
@@ -112,8 +115,8 @@
 		DDDDEA2022AA1B4C00F2BF8F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DDDDE9FE22A9BB8800F2BF8F /* LogInViewController.h */,
 				DDDDE9FF22A9BB8800F2BF8F /* LogInViewController.m */,
+				DDDDEA3422AB53D900F2BF8F /* LogInViewController.h */,
 				DDDDEA1822A9C6CC00F2BF8F /* CreateEventViewController.m */,
 				DDDDEA2122AA1BE400F2BF8F /* CreateEventViewController.h */,
 				DDDDEA2A22AA1C9100F2BF8F /* EventListViewController.m */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDDEA0822A9BB8A00F2BF8F /* LaunchScreen.storyboard in Resources */,
+				DDDDEA3322AB309D00F2BF8F /* GoogleService-Info.plist in Resources */,
 				DDDDEA0522A9BB8A00F2BF8F /* Assets.xcassets in Resources */,
 				DDDDEA0322A9BB8800F2BF8F /* Main.storyboard in Resources */,
 			);
