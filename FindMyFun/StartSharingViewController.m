@@ -9,8 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "StartSharingViewController.h"
 #import <INTULocationManager/INTULocationManager.h>
+@import Firebase;
 
 @interface StartSharingViewController ()
+@property (strong, nonatomic) FIRDatabaseReference *ref;
 
 @end
 
@@ -18,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.ref = [[FIRDatabase database] reference];
     // Do any additional setup after loading the view.
 }
 - (IBAction)clickedStartSharingButton:(id)sender {
@@ -29,6 +32,20 @@
                                                         if (status == INTULocationStatusSuccess) {
                                                             // A new updated location is available in currentLocation, and achievedAccuracy indicates how accurate this particular location is.
                                                             NSLog(@"%@", currentLocation);
+//                                                            NSArray *locationArray = [NSArray arrayWithObjects:currentLocation, nil];
+
+
+                                                            if ([FIRAuth auth].currentUser) {
+                                                                // User is signed in.
+//                                                                [[[self.ref child:@"users"] child:[FIRAuth auth].currentUser.uid]
+//                                                                 setValue:@{@"locationArray": locationArray}];
+                                                                
+                                                            } else {
+                                                                // No user is signed in.
+                                                                // ...
+                                                            }
+                                                            
+                                                            
                                                             /*
                                                              
                                                              */

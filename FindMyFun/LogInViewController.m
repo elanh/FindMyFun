@@ -50,7 +50,6 @@
                                      NSLog(@"Error! %@", error);
                                  }
                              }];
-
 }
 
 - (IBAction)clickedLoginButton:(UIButton *)sender {
