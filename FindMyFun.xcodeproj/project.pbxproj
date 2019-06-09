@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B76350EF748CC9BE58DA72CD /* libPods-FindMyFun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 032470BBF49121B82B97FD66 /* libPods-FindMyFun.a */; };
+		DD9C006422AD88E4008956F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9C006322AD88E4008956F0 /* GoogleService-Info.plist */; };
 		DDDDE9FD22A9BB8800F2BF8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */; };
 		DDDDEA0022A9BB8800F2BF8F /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDE9FF22A9BB8800F2BF8F /* LogInViewController.m */; };
 		DDDDEA0322A9BB8800F2BF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEA0122A9BB8800F2BF8F /* Main.storyboard */; };
@@ -18,12 +19,13 @@
 		DDDDEA2822AA1BE500F2BF8F /* StartSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA2522AA1BE500F2BF8F /* StartSharingViewController.m */; };
 		DDDDEA2B22AA1C9100F2BF8F /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA2A22AA1C9100F2BF8F /* EventListViewController.m */; };
 		DDDDEA3122AB269700F2BF8F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA3022AB269700F2BF8F /* User.m */; };
-		DDDDEA3322AB309D00F2BF8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEA3222AB309D00F2BF8F /* GoogleService-Info.plist */; };
+		DDDDEA3722AB5E6300F2BF8F /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDEA3622AB5E6300F2BF8F /* Event.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		032470BBF49121B82B97FD66 /* libPods-FindMyFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindMyFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF261720AEC17CFF8FA0D1C /* Pods-FindMyFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.release.xcconfig"; sourceTree = "<group>"; };
+		DD9C006322AD88E4008956F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DDDDE9F822A9BB8800F2BF8F /* FindMyFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDDE9FB22A9BB8800F2BF8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,8 +44,9 @@
 		DDDDEA2C22AA1CA200F2BF8F /* EventListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
 		DDDDEA2F22AB268900F2BF8F /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		DDDDEA3022AB269700F2BF8F /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		DDDDEA3222AB309D00F2BF8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DDDDEA3422AB53D900F2BF8F /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		DDDDEA3522AB5E5300F2BF8F /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		DDDDEA3622AB5E6300F2BF8F /* Event.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		E7D06863D7BB2203E757E843 /* Pods-FindMyFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,9 +108,9 @@
 				DDDDEA0422A9BB8A00F2BF8F /* Assets.xcassets */,
 				DDDDEA0622A9BB8A00F2BF8F /* LaunchScreen.storyboard */,
 				DDDDEA0922A9BB8A00F2BF8F /* Info.plist */,
-				DDDDEA3222AB309D00F2BF8F /* GoogleService-Info.plist */,
 				DDDDEA0A22A9BB8A00F2BF8F /* main.m */,
 				DDDDEA1122A9BFBF00F2BF8F /* FindMyFun-Bridging-Header.h */,
+				DD9C006322AD88E4008956F0 /* GoogleService-Info.plist */,
 			);
 			path = FindMyFun;
 			sourceTree = "<group>";
@@ -131,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				DDDDEA2F22AB268900F2BF8F /* User.h */,
+				DDDDEA3522AB5E5300F2BF8F /* Event.h */,
+				DDDDEA3622AB5E6300F2BF8F /* Event.m */,
 				DDDDEA3022AB269700F2BF8F /* User.m */,
 			);
 			name = Classes;
@@ -196,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDDEA0822A9BB8A00F2BF8F /* LaunchScreen.storyboard in Resources */,
-				DDDDEA3322AB309D00F2BF8F /* GoogleService-Info.plist in Resources */,
+				DD9C006422AD88E4008956F0 /* GoogleService-Info.plist in Resources */,
 				DDDDEA0522A9BB8A00F2BF8F /* Assets.xcassets in Resources */,
 				DDDDEA0322A9BB8800F2BF8F /* Main.storyboard in Resources */,
 			);
@@ -234,6 +239,7 @@
 				DDDDEA3122AB269700F2BF8F /* User.m in Sources */,
 				DDDDEA1922A9C6CC00F2BF8F /* CreateEventViewController.m in Sources */,
 				DDDDEA0022A9BB8800F2BF8F /* LogInViewController.m in Sources */,
+				DDDDEA3722AB5E6300F2BF8F /* Event.m in Sources */,
 				DDDDEA2B22AA1C9100F2BF8F /* EventListViewController.m in Sources */,
 				DDDDEA0B22A9BB8A00F2BF8F /* main.m in Sources */,
 				DDDDE9FD22A9BB8800F2BF8F /* AppDelegate.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-@import Firebase;
+#import <Firebase/Firebase.h>
 
 @interface AppDelegate ()
 

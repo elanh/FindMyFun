@@ -10,6 +10,8 @@
 #import "CreateEventViewController.h"
 
 @interface CreateEventViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *eventTitleTextField;
+@property (weak, nonatomic) IBOutlet UITextField *eventLocationTextField;
 
 @end
 
@@ -20,5 +22,9 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)clickedSubmit:(UIButton *)sender {
+    // create event object using text field info
+    // send event obj to database
+}
 
 @end

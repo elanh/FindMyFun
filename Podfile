@@ -9,5 +9,6 @@ target 'FindMyFun' do
 pod 'INTULocationManager'
 pod 'Firebase/Core'
 pod 'Firebase/Analytics'
+pod 'Firebase/Database'
 pod 'Firebase/Auth'
 end

@@ -29,6 +29,10 @@
                                                         if (status == INTULocationStatusSuccess) {
                                                             // A new updated location is available in currentLocation, and achievedAccuracy indicates how accurate this particular location is.
                                                             NSLog(@"%@", currentLocation);
+                                                            /*
+                                                             
+                                                             */
+                                                    
                                                             // Check if the currentLocation matches an event location
                                                             // if so, check if user.locationstatus != nil then compare user.locationstatus to currentlocation
                                                                 // if user.locationstatus == currentlocation do nothing
