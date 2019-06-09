@@ -23,6 +23,11 @@
     self.ref = [[FIRDatabase database] reference];
     // Do any additional setup after loading the view.
 }
+
+- (void)checkIfUserLocationMatchesEvent:(NSNumber*) userLongitude : (NSNumber*) userLatitude {
+    
+}
+
 - (IBAction)clickedStartSharingButton:(id)sender {
     INTULocationManager *locMgr = [INTULocationManager sharedInstance];
 
@@ -32,13 +37,20 @@
                                                         if (status == INTULocationStatusSuccess) {
                                                             // A new updated location is available in currentLocation, and achievedAccuracy indicates how accurate this particular location is.
                                                             NSLog(@"%@", currentLocation);
-//                                                            NSArray *locationArray = [NSArray arrayWithObjects:currentLocation, nil];
-
+                                                            
+                                                            NSNumber *longitude = [NSNumber numberWithDouble:currentLocation.coordinate.longitude];
+                                                            NSNumber *latitude = [NSNumber numberWithDouble:currentLocation.coordinate.latitude];
+                                                            
+                                                            NSLog(@" longitude %@", longitude);
+                                                            NSLog(@" latitude %@", latitude);
 
                                                             if ([FIRAuth auth].currentUser) {
                                                                 // User is signed in.
-//                                                                [[[self.ref child:@"users"] child:[FIRAuth auth].currentUser.uid]
-//                                                                 setValue:@{@"locationArray": locationArray}];
+                                                                [[[self.ref child:@"users"] child:[FIRAuth auth].currentUser.uid]
+                                                                 setValue:@{@"longitude": longitude}];
+                                                                [[[self.ref child:@"users"] child:[FIRAuth auth].currentUser.uid]
+                                                                 setValue:@{@"latitude": latitude}];
+                                                                [self checkIfUserLocationMatchesEvent:longitude :latitude];
                                                                 
                                                             } else {
                                                                 // No user is signed in.
