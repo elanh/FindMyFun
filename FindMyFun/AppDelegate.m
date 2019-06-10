@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import <Firebase/Firebase.h>
+@import GooglePlaces;
+
 
 @interface AppDelegate ()
 
@@ -18,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [FIRApp configure];
+    [GMSPlacesClient provideAPIKey:@"AIzaSyCg3dEm-DffM069c7XoqNGxobWtaJ1gMF8"];
     return YES;
 }
 

@@ -10,7 +10,4 @@
 
 @interface StartSharingViewController : UIViewController
 
-- (void)checkIfUserLocationMatchesEvent:(NSNumber*) userLongitude : (NSNumber*) userLatitude;
-
-
 @end

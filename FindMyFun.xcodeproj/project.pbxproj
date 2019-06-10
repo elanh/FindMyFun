@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B76350EF748CC9BE58DA72CD /* libPods-FindMyFun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 032470BBF49121B82B97FD66 /* libPods-FindMyFun.a */; };
 		DD9C006422AD88E4008956F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9C006322AD88E4008956F0 /* GoogleService-Info.plist */; };
+		DD9C006622AE0D8F008956F0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9C006522AE0D8F008956F0 /* HomeViewController.m */; };
 		DDDDE9FD22A9BB8800F2BF8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */; };
 		DDDDEA0022A9BB8800F2BF8F /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDE9FF22A9BB8800F2BF8F /* LogInViewController.m */; };
 		DDDDEA0322A9BB8800F2BF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEA0122A9BB8800F2BF8F /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 		032470BBF49121B82B97FD66 /* libPods-FindMyFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindMyFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF261720AEC17CFF8FA0D1C /* Pods-FindMyFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun.release.xcconfig"; sourceTree = "<group>"; };
 		DD9C006322AD88E4008956F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD9C006522AE0D8F008956F0 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DD9C006722AE0D9C008956F0 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		DDDDE9F822A9BB8800F2BF8F /* FindMyFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDDE9FB22A9BB8800F2BF8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDDDE9FC22A9BB8800F2BF8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 		DDDDEA2022AA1B4C00F2BF8F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DD9C006522AE0D8F008956F0 /* HomeViewController.m */,
+				DD9C006722AE0D9C008956F0 /* HomeViewController.h */,
 				DDDDE9FF22A9BB8800F2BF8F /* LogInViewController.m */,
 				DDDDEA3422AB53D900F2BF8F /* LogInViewController.h */,
 				DDDDEA1822A9C6CC00F2BF8F /* CreateEventViewController.m */,
@@ -152,6 +157,7 @@
 				DDDDE9F422A9BB8800F2BF8F /* Sources */,
 				DDDDE9F522A9BB8800F2BF8F /* Frameworks */,
 				DDDDE9F622A9BB8800F2BF8F /* Resources */,
+				5E869BDC9E70E9AA55E39AD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,6 +234,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5E869BDC9E70E9AA55E39AD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyFun/Pods-FindMyFun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -240,6 +264,7 @@
 				DDDDEA1922A9C6CC00F2BF8F /* CreateEventViewController.m in Sources */,
 				DDDDEA0022A9BB8800F2BF8F /* LogInViewController.m in Sources */,
 				DDDDEA3722AB5E6300F2BF8F /* Event.m in Sources */,
+				DD9C006622AE0D8F008956F0 /* HomeViewController.m in Sources */,
 				DDDDEA2B22AA1C9100F2BF8F /* EventListViewController.m in Sources */,
 				DDDDEA0B22A9BB8A00F2BF8F /* main.m in Sources */,
 				DDDDE9FD22A9BB8800F2BF8F /* AppDelegate.m in Sources */,

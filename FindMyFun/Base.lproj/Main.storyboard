@@ -100,7 +100,7 @@
                                 <state key="normal" title="Start Sharing"/>
                                 <connections>
                                     <action selector="clickedStartSharingButton:" destination="pSZ-Q6-Dkm" eventType="touchUpInside" id="Rex-aV-fdg"/>
-                                    <segue destination="RgV-nn-3Io" kind="presentation" id="Oxf-WW-ty7"/>
+                                    <segue destination="RgV-nn-3Io" kind="show" id="QIt-5A-Fac"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -112,10 +112,10 @@
             </objects>
             <point key="canvasLocation" x="1010" y="110"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="42x-uw-Zcd">
             <objects>
-                <viewController id="RgV-nn-3Io" sceneMemberID="viewController">
+                <viewController id="RgV-nn-3Io" customClass="HomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Hp-At-XAI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -230,14 +230,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UaU-NF-Wc9">
-                                <rect key="frame" x="253" y="236" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EYI-Yt-G39">
-                                <rect key="frame" x="253" y="279" width="97" height="30"/>
+                                <rect key="frame" x="228" y="236" width="122" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -251,7 +244,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gcf-EQ-ulL">
-                                <rect key="frame" x="253" y="322" width="97" height="30"/>
+                                <rect key="frame" x="228" y="322" width="122" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -266,18 +259,27 @@
                                     <segue destination="x0e-zQ-npB" kind="show" id="dRf-2Z-v92"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yb0-pX-DTk">
+                                <rect key="frame" x="228" y="277" width="122" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Search Places"/>
+                                <connections>
+                                    <action selector="searchPlacesClicked:" destination="r5F-XM-2LL" eventType="touchUpInside" id="yea-Q3-OcF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="11J-hh-qG5"/>
                     </view>
                     <connections>
-                        <outlet property="eventLocationTextField" destination="EYI-Yt-G39" id="c5H-sY-O66"/>
                         <outlet property="eventTitleTextField" destination="UaU-NF-Wc9" id="kvf-fl-6Tr"/>
+                        <outlet property="searchPlacesButton" destination="Yb0-pX-DTk" id="lw8-JV-Kve"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6pA-AY-huK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="f6i-YY-8zf"/>
             </objects>
-            <point key="canvasLocation" x="2845" y="-145"/>
+            <point key="canvasLocation" x="2844.9275362318845" y="-145.3125"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

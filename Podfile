@@ -11,4 +11,5 @@ pod 'Firebase/Core'
 pod 'Firebase/Analytics'
 pod 'Firebase/Database', '~> 5.0'
 pod 'Firebase/Auth'
+pod 'GooglePlaces'
 end
